@@ -1,0 +1,39 @@
+.imgeContainer {
+  display: block;
+  width: 100vw;
+
+  margin: 20px auto;
+}
+img {
+  width: 99vw;
+  height: 89vh;
+}
+img + h1 {
+  text-align: center;
+  margin: -250px auto;
+  text-shadow: whitesmoke 2px 2px 5px;
+}
+h1 + p {
+  color: white;
+  text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+  width: 86vw;
+  margin: 300px auto;
+  text-align: justify;
+}
+#next,
+#previous {
+  position: absolute;
+  background-color: rgba(250, 235, 215, 0);
+  border: none;
+  color: aliceblue;
+  font-size: 2rem;
+}
+#next {
+  right: 5px;
+  top: 50vh;
+}
+
+#previous {
+  left: 0px;
+  top: 50vh;
+}
